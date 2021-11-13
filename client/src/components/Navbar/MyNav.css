@@ -1,0 +1,106 @@
+@import url("http://fonts.cdnfonts.com/css/evogria");
+
+.MuiTypography-h6 {
+  color: white;
+  font-weight: bolder !important;
+  font-family: "Montserrat";
+  letter-spacing: 2px !important;
+  cursor: pointer;
+}
+
+.MuiMenu-list {
+  background: #00001b;
+  color: orange;
+}
+
+.MuiButton-root {
+  border-radius: 20px !important;
+  color: orange !important;
+  font-family: "Evogria", sans-serif !important;
+  letter-spacing: 2px !important;
+  cursor: pointer;
+  font-size: 20px !important;
+  transition: all 0.4s !important;
+  display: inline-block !important;
+}
+
+.MuiPopover-paper {
+  top: 67px !important;
+}
+
+.css-137ul40-MuiButtonBase-root-MuiIconButton-root {
+  margin-left: 0px !important;
+}
+
+/* Drawer styles */
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  background-color: #00001b !important;
+  color: orange !important;
+}
+
+.MuiListItemText-root {
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  transition: all 0.4s;
+}
+
+.MuiListItemText-root:hover {
+  margin-top: 0px !important;
+  border: 1px solid red;
+  background: orange;
+  color: #00001b;
+}
+
+.MuiTypography-root {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .MuiTypography-h6 {
+    margin-left: 5px !important;
+    font-size: 15px;
+  }
+  .MuiTypography-root {
+    font-size: 14px !important;
+  }
+
+  .css-1t29gy6-MuiToolbar-root {
+    padding-right: 0px !important;
+  }
+
+  .MuiButtonBase-root {
+    padding: 0px 0px 0px 10px !important;
+    margin-right: 0px;
+  }
+
+  .logo {
+    width: 30px !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo {
+    width: 30px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .MuiButtonBase-root {
+    padding: 0px 0px 0px 10px !important;
+    margin-right: 0px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

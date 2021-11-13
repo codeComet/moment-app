@@ -1,0 +1,60 @@
+.posts-container {
+  display: flex;
+}
+
+.card {
+  width: 17.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .posts-container {
+    display: block;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .posts-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+
+  .card {
+    width: 14rem;
+    margin-right: 18px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card {
+    width: 14rem;
+    margin-right: 15px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card {
+    width: 16rem;
+    margin-right: 17px;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+}

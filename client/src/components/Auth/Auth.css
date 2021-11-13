@@ -1,0 +1,13 @@
+.auth-container {
+  margin-top: 20vh;
+  color: white;
+}
+
+.login,
+.signup {
+  width: 30%;
+  margin: auto;
+  border: 1px solid white;
+  padding: 25px;
+  border-radius: 10px;
+}
